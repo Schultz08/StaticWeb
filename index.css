@@ -1,0 +1,229 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+
+    margin: 0;
+    padding: 0;
+}
+.course-info, .row{
+    z-index: 3;
+}
+a{
+    text-decoration: none;
+}
+
+.nav-bar{
+    background-color: #2d2d2d;
+    font-family: inherit;
+    color: white;
+    height: auto;
+    width: 100vw;
+    position: fixed;
+    margin: 0 auto;
+    padding: 0;
+    top: 0;
+    z-index: 10;
+    overflow: hidden;
+    font-weight: bold;
+
+}
+
+.nav-title{
+    display: inline-flex;
+}
+
+.title-text{
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.img-wrap{
+    height: 52px;
+    width: 50px;
+    background-color: #e33e42;
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.title-img{
+    background-image: url(https://elevenfifty.org/wp-content/themes/elevenfiftyacademy/assets/images/common/eleven-fifty-logo-shield.png);
+    width: 32px;
+    height: 42px;
+    background-color: #e33e42;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.nav-menu{
+    display: flex;
+    float: right;
+    margin-right: 1rem;
+}
+.nav-list{
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 2rem;
+}
+
+.nav-list > li{
+    padding: .5rem;
+}
+
+.nav-list > li > a{
+    text-decoration: none;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+
+#meeting{
+    background-color: #348DB9;
+    border-left: .3rem solid white;
+}
+
+#meeting > a{
+    color: #fff;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    top: 1.5rem;
+}
+
+#apply{
+    background-color: #e33e42;
+    left: 3rem;
+    border-left: .3rem solid white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#apply > a{
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    top: 1.5rem;
+}
+
+.fullscreen-bg{
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
+}
+
+.fullscreen-video{
+    width: 100%;
+}
+
+.title-group{
+    position: absolute;
+    top: 20rem;
+    text-align: center;
+    display: block;
+    color: #fff;
+    width: 70rem;
+    left: 20rem;
+}
+
+.title-group > h1{
+    background-color: rgb(0, 0, 0, 0.7);
+    padding: .2rem 1rem;
+    line-height: 1.7;
+    font-weight: 900;
+    font-size: 55px;
+    float: left;
+    margin: 0 0 .4rem 0;
+}
+
+.title-group > a{
+    text-decoration: none;
+    font-weight: 900;
+    color: #FFFFFF;
+    right: 12.5rem;
+    background-color: #E33E42;
+    padding: .5rem;
+    float: left;
+    clear: left;
+    font-size: 32px;
+}
+
+.course-info{
+    text-align: center;
+    background-color: #EFEFEF;
+    width: 100%;
+    padding: 0px;
+}
+
+.center{
+    margin:0;
+    padding: 1rem;
+    color: #348DB9;
+    font-size: 60px;
+}
+
+.card-wrapper{
+    display: inline-flex;
+    align-items: stretch;
+    padding-bottom: 3rem;
+}
+
+.card-content:hover
+{
+    background-color: #b3d4fc;
+}
+.card-content{
+    height: 23.5rem; /* 380 x 362*/
+    width: 24rem;
+    margin-left: .7rem;
+    line-height: 1.4;
+    color: #676767;
+    background-color: #FFFFFF;
+    padding: 25px;
+    font-size: 21px;
+    position: relative;
+}
+
+.card-content > h2{
+    color: #2D2D2D;
+}
+
+.card-button{
+    margin-left: .7rem;
+    padding: 10.5px;
+    background-color: #E33E42;
+    font-size: 21px;
+    color: #FFFFFF;
+}
+
+.row{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+.column-one{
+    float: left;
+}
+.column-two{
+    width: 70%;
+    margin-left: 13rem;
+}
+
+.column-two > h2{
+    font-size: 36px;
+    font-weight: 600;
+    color: #348DB9;
+}
+
+.column-two > p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: .025em;
+}
+.column-one, img{
+    height: 223px;
+    width: 200px;
+    margin-right: 5rem;
+    
+}
